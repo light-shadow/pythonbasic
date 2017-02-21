@@ -72,3 +72,18 @@ print(str2float('123.45600'))
 print(str2float('0.1234'))
 print(str2float('.1234'))
 print(str2float('120.0034'))
+
+
+#Filter
+class filter(object):
+    """
+    filter(function or None, iterable) --> filter object
+    
+    Return an iterator yielding those items of iterable for which function(item)
+    is true. If function is None, return the items that are true.
+    """
+eg: def is_odd(n):
+        return n % 2 == 1
+
+list(filter(is_odd, [1, 2, 4, 5, 6, 9, 10, 15]))
+# 结果: [1, 5, 9, 15]
