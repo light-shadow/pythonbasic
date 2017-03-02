@@ -1,3 +1,4 @@
+http://xinsheng.huawei.com/cn/index.php?app=forum&mod=Detail&act=index&id=3206227&p=65
 #List List Comprehensions
 L1 = ['Hello', 'World', 18, 'Apple', None]
 to make L1 like ['hello', 'world', 'apple']
